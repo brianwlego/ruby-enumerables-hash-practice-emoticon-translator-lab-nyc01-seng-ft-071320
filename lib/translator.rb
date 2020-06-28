@@ -53,7 +53,7 @@ def get_english_meaning(file_path, jap_emoticon)
   end
   if english_name == ""
     english_name = "Sorry, that emoticon was not found"
-  else english_name
+  
   end
   english_name
  # binding.pry
