@@ -39,7 +39,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
 end
 
 def get_english_meaning(file_path, jap_emoticon)
-  emoticons = load_library(file_path)
+  #emoticons = load_library(file_path)
   load_library(file_path) 
   english_name = ""
   emoticons.each do |key, value|
