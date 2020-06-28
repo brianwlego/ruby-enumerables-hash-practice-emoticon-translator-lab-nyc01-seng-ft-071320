@@ -34,7 +34,6 @@ def get_japanese_emoticon(file_path, eng_emoticon)
     japanese_equiv = "Sorry, that emoticon was not found"
   else japanese_equiv
   end
-  english_name
   japanese_equiv
  # binding.pry
 end
