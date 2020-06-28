@@ -19,14 +19,11 @@ end
 
 def get_japanese_emoticon(file_path, eng_emoticon)
   emoticons = load_library(file_path)
- 
   japanese_equiv = ""
   emoticons.each do |key, value|
     value.each do |inner_key, inner_value|
       if inner_value == eng_emoticon
         japanese_equiv = value[:japanese]
-      
-      #binding.pry
       end  
     end
   end
