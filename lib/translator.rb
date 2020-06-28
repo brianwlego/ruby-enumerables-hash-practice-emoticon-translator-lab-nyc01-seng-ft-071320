@@ -32,7 +32,6 @@ def get_japanese_emoticon(file_path, eng_emoticon)
   end
   if japanese_equiv == ""
     japanese_equiv = "Sorry, that emoticon was not found"
-  else japanese_equiv
   end
   japanese_equiv
  # binding.pry
@@ -46,14 +45,12 @@ def get_english_meaning(file_path, jap_emoticon)
     value.each do |inner_key, inner_value|
       if inner_value == jap_emoticon
         english_name = key
-      
       # binding.pry
       end  
     end
   end
   if english_name == ""
     english_name = "Sorry, that emoticon was not found"
-  
   end
   english_name
  # binding.pry
