@@ -38,6 +38,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
 end
 
 def get_english_meaning(file_path, jap_emoticon)
+  file_path = "./lib/emoticons.yml"
   load_library(file_path)
   emoticons = load_library(file_path)
    
